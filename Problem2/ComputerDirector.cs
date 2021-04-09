@@ -22,7 +22,7 @@ namespace Problem2
         {
             builder.BuildMotherboard();
             builder.BuildHardDrive();
-            builder.BuildMotherboard();
+            builder.BuildCase();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Problem2
     /// <summary>
     /// Represents a class that builds a "low-end" computer.
     /// </summary>
-    class LowEndComputerBuilder : IComputerBuilder
+    public class LowEndComputerBuilder : IComputerBuilder
     {
         public Computer Computer { get; private set; }
 

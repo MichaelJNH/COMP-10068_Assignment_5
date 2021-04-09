@@ -2,8 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
+/** Statement of Authorship
+ *I, Michael Helbert, student number 000788384, certify that all code submitted is my own work; that I have not copied it from any other source.
+ *I also certify that I have not allowed my work to be copied by others.
+*/
+
 namespace Problem2
 {
+    /// <summary>
+    /// Represents a class that builds a "medium-end" computer.
+    /// </summary>
     class MediumEndComputerBuilder : IComputerBuilder
     {
         public Computer Computer { get; private set; }
